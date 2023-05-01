@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 8px 0px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 0px 32px;
+}
+
+header h1 {
+    margin-top: 8px;
+    margin-right: 61%;
+}
+
+header li {
+    display: inline;
+    font-size: 20px;
+    margin-left: 14px;
+}
+
+header li a:hover{
+    color: #ffcc00;
+}
+
+header img{
+    height: 75px;
+}
+
+header h1,
+header li a {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+section .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section video {
+    height: 512px;
+}
+
+section h2 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-weight: normal;
+    padding: 128px 0px 8px 32px;
+}
+
+section {
+    padding: 128px;
+    background-image: linear-gradient(180deg, black, white);
+}
+
+section p {
+    margin: 0px 32px;
+    font-weight: 500;
+}
+
+#partnership {
+    background-image: linear-gradient(180deg, white, black);
+}
+
+.partnership{
+    display: block;
+    margin-top: -96px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partnership h2 {
+    color: white;
+    text-align: center;
+}
+
+.partnership img {
+    margin-right: auto;
+    margin-left: 26.25%;
+}
+
+.articles {
+    display: inline-flex;
+    color: white;
+    margin-top: 128px;
+    margin-bottom: 160px;
+}
+
+.articles h3 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.articles p {
+    text-align: left;
+}
+
+#social-media {
+    background-image: linear-gradient(180deg, black, black);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+#yt-video {
+    margin-top: -250px;
+}
+
+#social-media h2{
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 32px;
+    margin-right: 3.5%;
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.social-links p{
+    height: 40px;
+}
+
+.social-links h2 {
+    margin-left: 16px;
+    color: white;
+}
+
+.social-links {
+    margin-top: 128px;
+}
+
+#youtube {
+    height: 36px;
+}
+
+.form h2{
+    text-align: center;
+    margin-left: -26px;
+}
+
+form input,
+form textarea,
+form button {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 280px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Russo One', sans-serif;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #9c7d00;
+}
+
+form textarea {
+    resize: none;
+    height: 125px;
+}
+
+.address {
+    color: white;
+    text-align: center;
+}
+
+#contact {
+    background-image: linear-gradient(180deg, black, black);
+    padding-bottom: 15%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 16px 0px;
+}
+
+.form {
+    margin-left: 15%;
+}
+
+.form h2 {
+    color: #ffcc00;
+}
+
+.address {
+    margin-right: 15%;
+}
+
+.address h2 {
+    color: #ffcc00;
+}
