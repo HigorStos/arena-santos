@@ -5,18 +5,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0px auto;
+}
+
 header {
     background-color: black;
     padding: 8px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.container {
-    max-width: 1920px;
-    width: 100%;
-    margin: 0px auto;
 }
 
 header .container{
@@ -66,9 +66,10 @@ section video {
 
 section h2 {
     font-family: 'Russo One', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
     color: white;
     text-shadow: 2px 2px 3px black;
-    font-weight: normal;
     padding: 128px 0px 8px 32px;
 }
 
