@@ -23,4 +23,4 @@ Projeto próprio, onde consegui aplicar os conceitos de HTML e CSS para a criaç
 - [x] Incorporar itens com HTML
 - [x] Uso de imagens e vídeos com HTML
 - [x] Uso de forms com HTML
-- [x] Uso do CSS
+- [x] Uso do CSS para estilização da página
